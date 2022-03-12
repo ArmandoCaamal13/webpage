@@ -1,0 +1,33 @@
+.banner
+{
+    background-image: url('../../../assets/img/bannerimg.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.content
+{
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+.content h1
+{
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.content a
+{
+    text-decoration: none;
+    background-color: aqua;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px
+}
+
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
