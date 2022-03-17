@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { OrderdetailsService } from 'src/app/services/orderdetails.service';
-OrderdetailsService
+
 
 @Component({
   selector: 'app-home',
@@ -9,10 +8,9 @@ OrderdetailsService
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private service:OrderdetailsService) { }
-  lensData:any;
-  ngOnInit(): void {
-    this.lensData = this.service.lensDetails;
+  constructor() { }
+  
+  ngOnInit(){
   }
 
 }
